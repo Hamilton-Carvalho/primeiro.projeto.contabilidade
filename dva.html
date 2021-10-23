@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="javascript.js"></script>
+</head>
+<body>
+    <section>
+    <nav>
+        <h1>Menu Principal</h1>
+        <ul type="disc">
+            <li><a href="home.html">HOME</a></li>
+            <li><a href="DRE.html">DRE</a></li>
+
+        </ul>
+    </nav>
+    <p>A Demonstração do Valor Adicionado visa mensurar o valor da riqueza gerada pela companhia, a sua distribuição entre os elementos que contribuíram para a geração dessa riqueza,<br> 
+        tais como empregados, financiadores, acionistas, governo e outros, bem como a parcela da riqueza não distribuída. Sua origem passa a ser instrumento mandatório nas empresas <br>
+        Europeias, devido a uma obrigação que nasceu na França.</p>
+        <FORM>
+
+        <div class="macaco">
+            <div><Label>1 – RECEITAS <br></Label> </div>
+            <div><input type="number" name="1" id="1" onchange="dva()"><br><br></div>
+        </div>
+
+
+
+
+        
+        <Label>1.1) Vendas de mercadorias, produtos e serviços</Label> <input type="number" name="1.1" id="1.1" onchange="dva()"><br><br>
+        <Label>1.2) Outras receitas</Label> <input type="number" name="1.2" id="1.2" onchange="dva()"><br><br>
+        <Label>1.3) Receitas relativas à construção de ativos próprio</Label> <input type="number" name="1.3" id="1.3" onchange="dva()"><br><br>
+        <Label>1.4) Provisão para créditos de liquidação duvidosa – Reversão / (Constituição)</Label> <input type="number" name="1.4" id="1.4" onchange="dva()"><br><br>
+        <div class="macaco">
+            <div class="sub"><Label>2 - INSUMOS ADQUIRIDOS DE TERCEIROS <br> (inclui os valores dos impostos – ICMS, IPI, PIS e COFINS) <br></Label><br> </div>
+            <div><input type="number" name="2" id="2" onchange="dva()"><br><br></div>
+        </div>       
+        <Label class="sub">2.1) Custos dos produtos, das mercadorias e dos serviços vendidos</Label><input type="number" name="2.1" id="2.1" onchange="dva()"><br><br>
+        <Label class="sub">2.2) Materiais, energia, serviços de terceiros e outros</Label> <input type="number" name="2.2" id="2.2" onchange="dva()"><br><br>
+        <Label class="sub">2.3) Perda / Recuperação de valores ativos</Label> <input type="number" name="2.3" id="2.3" onchange="dva()"><br><br>
+        <Label class="sub">2.4) Outras (especificar)</Label> <input type="number" name="2.4" id="2.4" onchange="dva()"><br><br>
+        <Label>3 - VALOR ADICIONADO BRUTO (1-2)</Label>  <input type="number" name="3" id="3" onchange="dva()"><br><br>
+        <Label class="sub">4 - DEPRECIAÇÃO, AMORTIZAÇÃO E EXAUSTÃO</Label>  <input type="number" name="4" id="4" onchange="dva()"> <br><br>
+        <Label>5 - VALOR ADICIONADO LÍQUIDO PRODUZIDO PELA ENTIDADE (3-4)</Label>  <input type="number" name="5" id="5" onchange="dva()"><br><br>
+        <Label>6 - VALOR ADICIONADO RECEBIDO EM TRANSFERÊNCIA</Label>  <input type="number" name="6" id="6" onchange="dva()"><br><br>
+        <Label class="sub">6.1) Resultado de equivalência patrimonial</Label> <input type="number" name="6.1" id="6.1" onchange="dva()"><br><br>
+        <Label>6.2) Receitas financeiras</Label> <input type="number" name="6.2" id="6.2" onchange="dva()"><br><br>
+        <Label>6.3) Outras</Label> <input type="number" name="6.3" id="6.3" onchange="dva()"><br><br>
+        <Label>7 - VALOR ADICIONADO TOTAL A DISTRIBUIR (5+6)</Label> <input type="number" name="7" id="7" onchange="dva()"><br><br>
+        <Label>8 - DISTRIBUIÇÃO DO VALOR ADICIONADO (*)</Label> <input type="number" name="8" id="8" onchange="dva()"><br><br>
+        <Label class="sub">8.1) Pessoal</Label><input type="number" name="8.1" id="8.1" onchange="dva()"><br><br>
+        <Label class="sub">8.1.1 – Remuneração direta</Label> <input type="number" name="8.1.1" id="8.1.1" onchange="dva()"><br><br>
+        <Label class="sub">8.1.2 – Benefícios</Label><input type="number" name="8.1.2" id="8.1.2" onchange="dva()"><br><br>
+        <Label class="sub">8.1.3 – F.G.T.S</Label> <input type="number" name="8.1.3" id="8.1.3" onchange="dva()"><br><br>
+        <Label class="sub">8.2) Impostos, taxas e contribuições</Label> <input type="number" name="8.2" id="8.2" onchange="dva()"><br><br>
+        <Label class="sub">8.2.1 – Federais</Label> <input type="number" name="8.2.1" id="8.2.1" onchange="dva()"><br><br>
+        <Label class="sub">8.2.2 – Estaduais</Label> <input type="number" name="8.2.2" id="8.2.2" onchange="dva()"><br><br>
+        <Label class="sub">8.2.3 – Municipais</Label> <input type="number" name="8.2.3" id="8.2.3" onchange="dva()"><br><br>
+        <Label class="sub">8.3) Remuneração de capitais de terceiros</Label> <input type="number" name="8.3" id="8.3" onchange="dva()">  <br><br>
+        <Label class="sub">8.3.1 – Juros</Label> <input type="number" name="8.3.1" id="8.3.1" onchange="dva()"> <br><br>
+        <Label class="sub">8.3.2 – Aluguéis</Label> <input type="number" name="8.3.2" id="8.3.2" onchange="dva()"><br><br>
+        <Label class="sub">8.3.3 – Outras - Despesas financeiras</Label> <input type="number" name="8.3.3" id="8.3.3" onchange="dva()"><br><br>
+        <Label class="sub">8.4) Remuneração de Capitais Próprios</Label> <input type="number" name="8.4" id="8.4" onchange="dva()"><br><br>
+        <div class="macaco">
+            <div><Label>8.4.1 – Juros sobre o Capital Próprio</Label><br> </div>
+            <div><input type="number" name="8.4.1" id="8.4.1" onchange="dva()"><br><br></div>
+        </div>
+        
+        <Label>8.4.2 – Dividendos</Label> <input type="number" name="8.4.2" id="8.4.2" onchange="dva()"><br><br>
+        <Label>8.4.3 – Lucros retidos / Prejuízo do exercício</Label><input type="number" name="8.4.3" id="8.4.3" onchange="dva()"><br><br>
+        <Label>8.4.4 – Participação dos não-controladores nos lucros retidos <br>(só p/ consolidação)</Label><input type="number" name="8.4.4" id="8.4.4" onchange="dva()">
+        (*) O total do item 8 deve ser exatamente igual ao item 7.
+
+
+    </FORM>
+    </section>
+</body>
+</html>

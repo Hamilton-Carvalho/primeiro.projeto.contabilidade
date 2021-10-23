@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="javascript.js"></script>
+    
+</head>
+
+<body id="dree">
+    <div id="linear">
+    <section>
+        <nav>
+            <h1>Menu Principal</h1>
+            <ul type="disc">
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="dva.html">DVA</a></li>
+            </ul>
+            
+        <h1>DEMONSTRATIVO DE RESULTADO DE EXCERCICIO - DRE</h1>
+
+    </nav>
+        <p> 
+            A demonstração do resultado do exercício é uma demonstração <br>
+            contabilística dinâmica que se destina a evidenciar a formação do <br>
+            resultado líquido devendo ter alterações em um exercício, através <br>
+            do confronto das receitas, custos e resultados, apuradas segundo o 
+            princípio contábil do regime de competência.
+        </p>
+        <FORM>
+            <div class="macaco">
+                <div><label for="ROB">RECEITA OPERACIONAL BRUTA <br> Vendas de Produtos <br> Vendas de Mercadorias <br> Prestação de Serviços <br>  </label> <br></div> 
+                <div><input type="number" name="ROB" id="ROB" onchange="calcular()"> <BR></BR></div>
+            </div>
+            <div class="macaco">
+                <div class="sub"><Label>(-)DEDUÇÕES DA RECEITA BRUTA <br> Devoluções de Vendas <br> Abatimentos <br> Impostos e Contribuições incidentes sobre vendas <br> </Label> <br></div>
+                <div><input type="number" name="deducoes" id="deducoes" onchange="calcular()"> <br></div>
+            </div>
+            <LAbel>RECEITA OPERACIONAL LÍQUIDA</LAbel> <input type="number" name="liquida" id="liquida" onchange="calcular()"><br><br>
+            <div class="macaco">
+                <div class="sub"><Label>(-)CUSTOS DAS VENDAS <br>Custo dos produtos Vendidos <br> Custo das Mercadorias <br>Custo dos serviços Prestados<br></Label><br></div>
+                <div><input type="number" name="CUSTOS" id="CUSTOS" onchange="calcular()"><br></div><br>
+            </div>
+            <Label>RESULTADO OPERACIONAL BRUTO</Label> <input type="number" name="operacional" id="operacional" onchange="calcular()"><br><br>
+            <div class="macaco">
+                <div class="sub"><Label>(-)DESPESAS OPERACIONAIS <br>despesas com vendas <br>despesas administrativas <br></Label><br></div>
+                <div><input type="number" name="despesasop" id="despesasop" onchange="calcular()"></div><br>
+            </div>
+            <div class="macaco">
+                <div><Label>(-)DESPESAS FINANCEIRAS LÍQUIDAS <br>receitas financeiras <br>variações monetárias e cambias ativas<br></Label><br></div>
+                <div><input type="number" name="financeirasop" id="financeirasop" onchange="calcular()" ><br><br></div>
+            </div>
+            <div class="macaco">
+                <div><Label>OUTRAS RECEITAS E DESPESAS <br>(-)Custo da venda de bens e direitos do ativo não circulante <br></Label><br> </div>
+                <div><input type="text" name="outras" id="outras" onchange="calcular()"><br><br></div>
+            </div>
+          
+             
+            
+            
+             
+            
+            
+            <Label>RESULTADO OPERACIONAL ANTES DO IR E CSLL</Label> <input type="number" name="ir" id="ir" onchange="calcular()"><br><br>
+            <Label>PROVISÃO PARA IR E CSLL</Label> <input type="number" name="csll" id="csll" onchange="calcular()"><br><br>
+            <Label>LUCRO LÍQUIDO ANTES DAS PARTICIPAÇÕES</Label> <input type="number" name="antes" id="antes" onchange="calcular()"><br><br>
+            <Label>(-)PRO LABORE</Label> <input type="number" name="labore" id="labore"  onchange="calcular()"><br><br>
+            <Label>RESULTADO LÍQUIDO DO EXERCÍCIO</Label> <input type="number" name="resultado" id="resultado" onchange="calcular()"><br><br>   
+
+        </div>
+        </FORM>
+    </section>
+
+</body>
+</html>

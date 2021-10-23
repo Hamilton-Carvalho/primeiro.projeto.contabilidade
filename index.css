@@ -1,0 +1,62 @@
+input{
+    position: absolute;
+    left: 500px;
+    right: 0px;
+    padding: 0px;
+    background-color: #00bfff70;
+}
+.macaco{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sub{
+    color: red;
+}
+
+#dree {
+    background: url(logo1.jpg) no-repeat center 0px / 400px;
+
+
+
+    
+}
+p{
+    text-indent: 100px;
+    text-align: justify;
+}
+a:hover {
+    color: rgb(179, 255, 0);
+
+}
+a{
+    text-decoration: none;
+    background-color: yellow;
+    color: rgb(255, 0, 221);
+    padding: 0px;
+    margin: 0px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+    height: 40px;
+    font-size: 19px;
+}
+
+#obMenu{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#linear {
+    background: repeating-radial-gradient(circle,#20B2AA,#87CEEB,#00FF00
+    );
+}
+
+.home {
+    background-image: url(Admiral_Akainu.png);
+    background-size: 100px, 100px;
+    background-size: right;
+}
