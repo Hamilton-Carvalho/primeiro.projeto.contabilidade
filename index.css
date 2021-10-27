@@ -114,3 +114,33 @@ ul {
   li a:hover {
     background-color: #111;
   }
+
+  section:nth-of-type(1){
+      background-image: url("tax.jpg");
+
+  }
+  section:nth-of-type(2){
+    background-image: url("FOLHA.jpg");
+ }
+section:nth-of-type(3){
+    background-image: url("advocacia.jpg");
+
+}
+   section{
+       width: 100%;
+       min-height: 90vh;
+       display: grid;
+       place-items: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-attachment: fixed;
+   } 
+
+  section p{
+      font-size: 32px;
+      color: aqua;
+      text-align: center;
+      width: 100%;
+      max-width: 600px;
+      padding: 2%;
+  }
